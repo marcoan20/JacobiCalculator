@@ -6,3 +6,4 @@ Made by Marco Antonio
 
 Just download zip file, extract and execute JacobiCalculator.exe
 
+[Click here to Download](https://github.com/marcoan20/JacobiCalculator/releases)
