@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Jacobi Calculator</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+  <div class="responsive">
+    <img src="assets/img/calculadora.png" class="responsive" alt="...">
+    <h1>Jacobi Calculator</h1>
+    <h4>Made by: Marco Antonio</h4>
+    <div class="text-center">
+      <div class="form">
+        <form id="form">
+          <div class="Row">
+            <div class="Column">
+              <div>
+                <span>a<sub>11</sub></span>
+                <input type="number" id="a1">
+              </div>
+
+              <div>
+                <span>a<sub>21</sub></span>
+                <input type="number" id="a2">
+              </div>
+
+              <div>
+                <span>a<sub>31</sub></span>
+                <input type="number" id="a3">
+              </div>
+            </div>
+            <div class="Column">
+              <div>
+                <span>a<sub>12</sub></span>
+                <input type="number" id="b1">
+              </div>
+
+              <div>
+                <span>a<sub>22</sub></span>
+                <input type="number" id="b2">
+              </div>
+
+              <div>
+                <span>a<sub>32</sub></span>
+                <input type="number" id="b3">
+              </div>
+            </div>
+            <div class="Column">
+              <div>
+                <span>a<sub>13</sub></span>
+                <input type="number" id="c1">
+              </div>
+
+              <div>
+                <span>a<sub>23</sub></span>
+                <input type="number" id="c2">
+              </div>
+
+              <div>
+                <span>a<sub>33</sub></span>
+                <input type="number" id="c3">
+              </div>
+            </div>
+            <div class="Column">
+              <div>
+                <span>b<sub>1</sub></span>
+                <input type="number" id="B1">
+              </div>
+
+              <div>
+                <span>b<sub>2</sub></span>
+                <input type="number" id="B2">
+              </div>
+
+              <div>
+                <span>b<sub>3</sub></span>
+                <input type="number" id="B3">
+              </div>
+            </div>
+          </div>
+        </form>
+        <span>Tolerancia</span>
+        <input type="number" id="tolerancia">
+        <input type="submit" class="Button" 
+        onclick='calculate(
+          parseFloat(document.getElementById("a1").value),
+          parseFloat(document.getElementById("b1").value),
+          parseFloat(document.getElementById("c1").value),
+          parseFloat(document.getElementById("B1").value),
+          parseFloat(document.getElementById("a2").value),
+          parseFloat(document.getElementById("b2").value),
+          parseFloat(document.getElementById("c2").value),
+          parseFloat(document.getElementById("B2").value),
+          parseFloat(document.getElementById("a3").value),
+          parseFloat(document.getElementById("b3").value),
+          parseFloat(document.getElementById("c3").value),
+          parseFloat(document.getElementById("B3").value),
+          parseFloat(document.getElementById("tolerancia").value),
+        )'>
+        <div id="resultado">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src="./renderer.js"></script>
+  <script src="./assets/js/calculadora.js"></script> 
+</body>
+
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "jacobicalculator",
+  "version": "1.0.0",
+  "description": "Jacobi Method Calculator",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "init:sass": "node-sass sass/main.css scssfile.css -w"
+  },
+  "repository": "https://github.com/marcoan20/JacobiCalculator",
+  "keywords": [
+    "Jacobi",
+    "calculator",
+    "math"
+  ],
+  "author": "Marco Antonio",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^13.1.9",
+    "electron-reloader": "^1.2.1",
+    "electron-squirrel-startup": "^1.0.0",
+    "electron-winstaller": "^5.0.0"
+  },
+  "dependencies": {
+    "axios": "^0.21.1"
+  }
+}

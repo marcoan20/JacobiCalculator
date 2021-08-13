@@ -1,0 +1,70 @@
+span {
+  font-size: 20px;
+
+}
+div.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+img.responsive {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 0;
+}
+
+form {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: center;
+  height: 100px;
+  padding: 0;
+}
+
+form div span {
+  margin-right: 10px;
+  padding: 0;
+}
+
+.Column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50px;
+  margin-left: 5px;
+  padding: 0;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  height: 400px;
+  align-content: space-between;
+  padding: 0;
+}
+
+input {
+  width: 40px;
+}
+div#resultado div.Column {
+  padding: 0;
+}
+
+.Button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
